@@ -1,3 +1,5 @@
+// Chapter 2: Compound Data Types
+
 // Compound Data Types
 // arrays, tuples, slices and strings (slice string)
 
