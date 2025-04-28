@@ -1,3 +1,5 @@
+// Chapter 1: Primitive Data Types
+
 // Signed Integers: i8, i16, i32, i64, i128
 // Unsigned Integers: u8, u16, u32, u64, u128
 
