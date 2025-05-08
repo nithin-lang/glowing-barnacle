@@ -1,6 +1,7 @@
 // Chapter 6: Variables and Mutability
 
 fn main() {
+    println!("Chapter 6: Variables and Mutability");
     // let a: i32 = 8;
     // println!("A value is {}", a);
 
