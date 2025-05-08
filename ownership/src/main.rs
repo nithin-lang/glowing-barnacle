@@ -16,15 +16,15 @@
 
 
 // Example of Rule 1: Each value in Rust has an owner
-// fn main() {
-//     let s1 = String::from("RUST");
-//     let len = calculate_length(&s1);
-//     println!("The length of {} is {}.", s1, len);
-// }
+fn main() {
+    let s1 = String::from("RUST");
+    let len = calculate_length(&s1);
+    println!("The length of {} is {}.", s1, len);
+}
 
-// fn calculate_length(s: &String) -> usize {
-//     s.len()
-// }
+fn calculate_length(s: &String) -> usize {
+    s.len()
+}
 
 // Example of Rule 2: There can only be one owner at a time
 // fn main() {
@@ -35,19 +35,19 @@
 // }
 
 // Example of Rule 3: When the owner goes out of scope, the value will be dropped
-fn main() {
-    let s1 = String::from("RUST");
-    let len = calculate_length(&s1);
-    println!("The length of {} is {}.", s1, len);
-}
+// fn main() {
+//     let s1 = String::from("RUST");
+//     let len = calculate_length(&s1);
+//     println!("The length of {} is {}.", s1, len);
+// }
 
-fn printLost(s: &String) {
-    println!("{}", &s1);
-}
+// fn printLost(s: &String) {
+//     println!("{}", &s1);
+// }
 // you will get error[E0425]: cannot find value `s1` in this scope
 
 // s1 goes out of the scope and its value will be dropped
 
-fn calculate_length(s: &String) -> usize {
-    s.len()
-}
+// fn calculate_length(s: &String) -> usize {
+//     s.len()
+// }
