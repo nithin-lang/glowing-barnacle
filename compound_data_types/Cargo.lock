@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "compound-data-types"
+name = "compound_data_types"
 version = "0.1.0"
